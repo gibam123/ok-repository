@@ -1,0 +1,13 @@
+server:
+  port: 8085
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: 
+          #uri: https://github.com/cavanosa/microservices-tutorial
+          uri: https://github.com/gibam123/tutorial-youtube-springboot
+          search-paths: config-data
+  application:
+    name: config-service     
