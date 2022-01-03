@@ -2,13 +2,3 @@ server:
  port: 8001
  servlet:
   context-path: /gbm/api/v1/apireto
-spring:
- datasource:
-  platform: postgres
-  url: jdbc:postgresql://localhost:5432/bd_apiok
-  username: postgres
-  password: postgres
-  initialization-mode: never
- jpa:
-  hibernate: 
-   ddl-auto: update
