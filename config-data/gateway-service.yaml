@@ -14,7 +14,6 @@ spring:
        uri: http://localhost:8001/gbm/api/v1/apireto
        predicates:
         - Path=/exchangerate/**
-		
 
   
  
