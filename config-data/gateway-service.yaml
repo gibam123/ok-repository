@@ -8,11 +8,11 @@ spring:
   gateway:
    discovery:
     locator:
-	 enabled: true
-	routes:
-	 - id: api-service
-	   uri: http://localhost:8001/gbm/api/v1/apireto
-	   predicates:
-	    - Path=/exchangerate/**
+     enabled: true
+routes:
+ - id: api-service
+   uri: http://localhost:8001/gbm/api/v1/apireto
+   predicates:
+    - Path=/exchangerate/**
   
  
