@@ -9,9 +9,9 @@ spring:
      enabled: true
    routes:
     - id: api-service
-      uri: lb://api-service
+      uri: http://localhost:8001
       predicates:
-       - Path=/exchangerate/**
+       - Path=/gbm/api/v1/apireto/exchangerate/**
 
   
  
