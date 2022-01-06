@@ -1,7 +1,7 @@
 server:
- port: 8001
- servlet:
-  context-path: /gbm/api/v1/apireto
+  port: 8001
+  servlet:
+    context-path: /gbm/api/v1/apireto
   
  #Datasource configuration
 spring:
