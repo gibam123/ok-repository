@@ -1,7 +1,7 @@
 server:
- port: ${PORT:${SERVER_PORT:0}}
- servlet:
-  context-path: /gbm/api/v1/apireto
+  port: ${PORT:${SERVER_PORT:0}}
+  #servlet:
+   #context-path: /gbm/api/v1/apireto
   
  #Datasource configuration
 spring:
