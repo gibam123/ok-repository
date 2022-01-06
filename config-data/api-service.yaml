@@ -1,4 +1,4 @@
 server:
-  port: ${PORT:${SERVER_PORT:0}}
+  port: 8001
   servlet:
     context-path: /gbm/api/v1/apireto
