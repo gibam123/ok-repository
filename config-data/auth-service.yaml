@@ -1,6 +1,0 @@
-server:
- port: 8002
- servlet:
-  context-path: /gbm/api/v1/apireto
-  
- 
